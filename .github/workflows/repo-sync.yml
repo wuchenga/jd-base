@@ -26,7 +26,7 @@ jobs:
         with:
           src: github/wuchenga
           dst: gitee/superbei666
-          static_list: "v3"
+          static_list: "master"
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
           force_update: true
